@@ -6,7 +6,7 @@ This is based on the TP_LINK driver but it is modified to work with ARCH Linux k
 Remember to install the linux-headers package e.g "Pacman -S linux-headers" and select the Raspbery PI version.
 CD to the LinuxDriver directory and type "make"
 If all compiles well, then
-You may want to save th existing /lib/modules/`uname -r`/kernel/drivers/net/wireless/8188eu.ko to somewhere safe. e.g ~
+You may want to save th existing /lib/modules/\`uname -r\`/kernel/drivers/net/wireless/8188eu.ko to somewhere safe. e.g ~
 
 sudo cp 8188eu.ko /lib/modules/\`uname -r\`/kernel/drivers/net/wireless/
 
