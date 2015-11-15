@@ -8,7 +8,7 @@ CD to the LinuxDriver directory and type "make"
 If all compiles well, then
 You may want to save th existing /lib/modules/`uname -r`/kernel/drivers/net/wireless/8188eu.ko to somewhere safe. e.g ~
 
-sudo cp 8188eu.ko /lib/modules/`uname -r`/kernel/drivers/net/wireless/
+sudo cp 8188eu.ko /lib/modules/\`uname -r\`/kernel/drivers/net/wireless/
 
 sudo depmod -a
 
